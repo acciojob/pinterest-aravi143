@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+*{
+	margin:0%;
+	padding:0%
+}
+.hero{
+	display:flex;
+	align-items:center;
+}
+.hero>img{
+	width:400px;
+   height:250px;
+	object-fit:cover
+}
+.content{
+	text-align:center;
+	width:150px;
+	margin-inline:25px;
+}
+.content>h1{
+	font-size:15px;
+	font-weight:800;
+	margin-bottom:10px;
+}
+.content>p{
+	font-size:10px;
+	margin-bottom:10px;
+}
+.content>button{
+	padding:5px;
+	background:red;
+	border:none;
+	color:white;
+	border-radius:3px;
+}
